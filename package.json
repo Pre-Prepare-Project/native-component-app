@@ -7,12 +7,15 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "clean": "cd android && ENVFILE=.env.development ./gradlew clean"
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/compat": "^5.1.21",
     "@react-navigation/drawer": "^5.7.5",
     "@react-navigation/native": "^5.4.0",
+    "@react-navigation/stack": "^5.3.7",
     "lodash": "^4.17.15",
     "react": "16.11.0",
     "react-native": "0.62.2",
