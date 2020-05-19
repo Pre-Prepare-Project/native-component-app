@@ -8,7 +8,8 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "clean": "cd android && ENVFILE=.env.development ./gradlew clean"
+    "clean": "cd android && ENVFILE=.env.development ./gradlew clean",
+    "build":"ENVFILE=.env.development npx react-native run-android --variant=release"
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.10",

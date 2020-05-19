@@ -10,5 +10,3 @@
 # Add any project specific keep options here:
 
 -keep class com.componentapp.BuildConfig { *; }
-
-#-keepresources string/build_config_package
