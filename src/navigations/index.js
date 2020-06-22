@@ -26,7 +26,7 @@ const NotificationsScreen = ({navigation}) => {
     }
     return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-            <Button onPress={() => abs('HomeScreen')} title="Go back home" />
+            <Button onPress={() => navigation.navigate('HomeScreen')} title="Go back home" />
         </View>
     );
 }
